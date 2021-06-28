@@ -1,21 +1,52 @@
+
 <html>
-  <head>
+<head>
     <style type="text/css">
+* {
+font-family:sans-serif;
+}
+
+#title:hover {
+text-shadow: 4px 4px 15px darkgreen;cursor:default;
+}
+
+#title { 
+font-size: x-large;font-weight: bold;text-align: center;
+}
+
+nav {
+background:black;padding:10px;
+}
+
+nav a {
+color: lightgray;text-decoration: none;padding: 11px;transition-duration: 0.5s;
+}
+
+nav a:hover {
+background:white;color:black;text-shadow: 4px 4px 5px blueviolet;
+}
     </style>
   </head>
   
   <body>
-    <header>Moonterpuang</header>
+    <header>
+<div id="title">Moonterpuang</div>
+</header>
     <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">Menu1</a></li>
-        <li><a href="/">Menu1</a></li>
-        <li><a href="/">Menu1</a></li>
-      </ul>
+      <a href="TRY.html">Home</a>
+      <a href="try1.html">Menu1</a>
+      <a href="/">Menu1</a>
+      <a href="/">Menu1</a>
+</nav>
      <main>
-       <artikel/>
-     <aside/>
+	    <aside id="left" style="width:25%;">
+</aside>
+       <article style="width:50%;">
+<h1>Article</h1>
+<p>write down here</p>
+</article>
+     <aside id="right" style="width:25%;">
+</aside>
       </main>
       <footer/>
   </body>
